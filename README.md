@@ -26,12 +26,12 @@ M = [[-1,0,0,(L1+L2)],
      [0,0,0,1]]
      
 ### Screw axes for each joint
-B1 = [0,1,0,(W1+W2), 0, (L1+L2)]
-B2 = [0,0,1,H2,(-L1-L2),0]
-B3 = [0,0,1,H2,-L2,0]
-B4 = [0,0,1,H2,0,0]
-B5 = [0,-1,0,-W2,0,0]
-B6 = [0,0,1,0,0,0]
+B1 = [0,1,0,(W1+W2), 0, (L1+L2)] 
+B2 = [0,0,1,H2,(-L1-L2),0] 
+B3 = [0,0,1,H2,-L2,0] 
+B4 = [0,0,1,H2,0,0] 
+B5 = [0,-1,0,-W2,0,0] 
+B6 = [0,0,1,0,0,0] 
 
 ## Reference
 1. [Modern Robotics Course 2: Robot Kinematics](https://www.coursera.org/learn/modernrobotics-course2?specialization=modernrobotics)
