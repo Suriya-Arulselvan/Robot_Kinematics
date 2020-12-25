@@ -1,12 +1,16 @@
 # Robot_Kinematics
 
 ## Description
-The code defines a function called IKinBodyIterates using the function IKinBody from modern_robotics package (refer [here](https://github.com/NxRLab/ModernRobotics/blob/5e0f9e503cedb37fd9e5db706102b3b3fc288c22/packages/Python/modern_robotics/core.py#L699))
-The function prints out a report for each iteration 
-of the Newton-Raphson process, for iterates 0 (the initial guess) to the final solution each iteration listing joint vector, SE3 end-effector configuration, error twist, angular error magnitude and linear error magnitude.
+The code defines a function called IKinBodyIterates based on the function IKinBody from modern_robotics package (refer [here](https://github.com/NxRLab/ModernRobotics/blob/5e0f9e503cedb37fd9e5db706102b3b3fc288c22/packages/Python/modern_robotics/core.py#L699))
+The function computes inverse kinematics in the body frame for an open chain robot and prints out a report for each iteration 
+of the Newton-Raphson process, from initial guess to the final solution. Each iteration lists joint vector, SE3 end-effector configuration, error twist, angular error magnitude and linear error magnitude.
 
 ## Motivation
 This script is a submitted peer-revewied assignment for Modern Robotics Course2: Robot Kinematics. 
+
+## Problem Details
+Configuration of the robot: UR5 6 arm robot  
+
 
 
 
