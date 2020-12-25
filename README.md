@@ -10,6 +10,7 @@ This script is a submitted peer-revewied assignment for Modern Robotics Course2:
 
 ## Problem Details
 Configuration of the robot: UR5 6 arm robot  
+![alt text] (https://github.com/Suriya-Arulselvan/Robot_Kinematics/blob/main/UR5%206R%20robot.png)
 
 
 
